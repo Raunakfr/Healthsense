@@ -1,29 +1,26 @@
 {
   "expo": {
     "name": "HealthSense",
-    "slug": "HealthSense",
+    "slug": "healthsense",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "entryPoint": "./index.js",
+
+    "extra": {
+      "GEMINI_API_KEY": "AIzaSyBrRWM-v8P1OG3H28Ou1m0WnUUToMD_tLk heal"
+    },
+
     "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
     },
-    "ios": {
-      "supportsTablet": true
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "assetBundlePatterns": [
+      "**/*"
+    ]
   }
 }
