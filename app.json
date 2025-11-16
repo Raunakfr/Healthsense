@@ -8,7 +8,7 @@
     "entryPoint": "./index.js",
 
     "extra": {
-      "GEMINI_API_KEY": "AIzaSyBrRWM-v8P1OG3H28Ou1m0WnUUToMD_tLk heal"
+      "GEMINI_API_KEY": "..."
     },
 
     "splash": {
