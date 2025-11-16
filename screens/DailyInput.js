@@ -19,7 +19,7 @@ export default function DailyInput({ navigation }) {
   const [loading, setLoading] = useState(false);
 
   // ⚠️ REPLACE THIS WITH YOUR LAPTOP’S IP ADDRESS
-  const BACKEND_BASE = "http://192.168.29.190:5000";
+  const BACKEND_BASE = "http://IP:5000";
 
   const submitData = async () => {
     if (!sleep || !water || !steps) {
